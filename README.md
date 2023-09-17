@@ -1,5 +1,7 @@
 # Guess My Number (GAME)
 
+[Visit me here](https://carlosjavier4.github.io/Guess-My-Number/)
+
 This is a simple guessing game where the player has to guess a secret number. The game is played in a web browser and uses JavaScript events to interact with the DOM.
 
 ## How to Play
