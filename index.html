@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess My Number</title>
+    <link rel="stylesheet" href="src/stylesheets/styles.css" />
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__title">Guess My Number</h1>
+        <div class="header__navbar">
+            <a class="header__again button">Again!</a>
+            <p>(between 1 and 20)</p>
+        </div>
+        <div class="header__result">
+            <div class="lines"></div>
+            <p class="button result">?</p>
+            <div class="lines"></div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="answer">
+            <input type="number" class="answer__input button" placeholder="20... 1" max="20" min="1" />
+            <button type="submit" class="button check">
+                Check!
+            </button>
+        </section>
+
+        <div class="status__container">
+            <section class="status__info">
+                <!--Poner emoji a los status-->
+                <p class="status__answer">Start guessing...</p>
+            </section>
+
+            <section class="score">
+                <!--Poner los emojis 100 y medalla a score y Highscore-->
+                <h3>&#x1F4AF Score: <span id="score">20</span></h3>
+                <h3>&#x1F947 Highscore: <span id="highscore">0</span></h3>
+            </section>
+        </div>
+    </main>
+
+    <script src="src/scripts/script.js"></script>
+</body>
+
+</html>
